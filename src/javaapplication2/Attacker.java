@@ -25,7 +25,7 @@ public class Attacker {
     public static class DdosThread extends Thread {
  
         private AtomicBoolean running = new AtomicBoolean(true);
-        private final String request = "http://www.act.edu.ph/";
+        private final String request = "WEBSITE OF THE TARGET";
         private final URL url;
  
         String param = null;
